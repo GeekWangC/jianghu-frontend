@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs><style><![CDATA[
+    .bg{fill:#0e1116}.line{font:500 44px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#e6edf3}.muted{fill:#9fb1c6}
+  ]]></style></defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,360)">
+    <text class="line">清理阵痕，处处留白，</text>
+    <text class="line muted" y="80">为修，也为记。</text>
+  </g>
+</svg>
+

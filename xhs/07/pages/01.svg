@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs><style><![CDATA[
+    .bg{fill:#0e1116}.title{font:700 72px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#e6edf3}
+    .subtitle{font:500 42px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#9fb1c6}
+    .tag{font:500 28px system-ui,-apple-system,'Segoe UI','Noto Sans SC',sans-serif;fill:#9fb1c6}
+    .accent{fill:#1f6feb}
+  ]]></style></defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,240)">
+    <text class="title">江湖前端：风起四十</text>
+    <text class="subtitle" y="110">第七回 雪夜总决</text>
+  </g>
+  <g transform="translate(100,1260)">
+    <circle class="accent" cx="12" cy="-10" r="6"/>
+    <text class="tag" y="0">当代武侠 · 每周三/六更新</text>
+  </g>
+</svg>
+
