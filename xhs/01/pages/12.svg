@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <style><![CDATA[
+      .bg { fill: #0e1116; }
+      .line { font: 500 38px 'Noto Serif SC','STSong','Songti SC','SimSun',serif; fill: #e6edf3; }
+      .muted { fill: #9fb1c6; }
+      .accent { fill: #1f6feb; }
+      .btn { font: 600 32px system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', sans-serif; }
+    ]]></style>
+  </defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,320)">
+    <text class="line">合集已建：从第一回看起｜每周三/六更新</text>
+    <text class="line muted" y="80">评论聊聊：你见过的‘缚影术’？</text>
+  </g>
+  <g transform="translate(100,1100)">
+    <rect x="0" y="0" width="360" height="72" rx="12" class="accent"/>
+    <text x="26" y="48" class="btn" fill="#ffffff">进入合集 · 开始阅读</text>
+  </g>
+</svg>
+
