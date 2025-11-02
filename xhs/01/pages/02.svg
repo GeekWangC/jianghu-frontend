@@ -7,8 +7,8 @@
     ]]></style>
   </defs>
   <rect class="bg" width="1080" height="1440"/>
-  <g transform="translate(100,400)">
-    <text class="h1">先定静，再清源。</text>
+  <g transform="translate(100,380)">
+    <text class="h1">被优化那天，有人约我——</text>
+    <text class="h1" y="90">先拆三招。</text>
   </g>
 </svg>
-

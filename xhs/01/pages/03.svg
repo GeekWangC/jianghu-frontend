@@ -8,8 +8,7 @@
   </defs>
   <rect class="bg" width="1080" height="1440"/>
   <g transform="translate(100,360)">
-    <text class="line">裁员那天，风里有海腥味。</text>
-    <text class="line muted" y="80">工牌落在瓷碟里，声音很轻。</text>
+    <text class="line">工牌落进瓷碟，声很轻。</text>
+    <text class="line muted" y="80">比风还轻。</text>
   </g>
 </svg>
-

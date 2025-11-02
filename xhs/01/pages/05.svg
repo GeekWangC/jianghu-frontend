@@ -8,8 +8,7 @@
   </defs>
   <rect class="bg" width="1080" height="1440"/>
   <g transform="translate(100,360)">
-    <text class="line">渲染堂里，老人递来一本薄册：《渲染经》。</text>
-    <text class="line muted" y="80">第一行写着：首屏如初式，动者如呼吸。</text>
+    <text class="line">茶馆里，白须老人推来薄册：《渲染经》。</text>
+    <text class="line muted" y="80">先定静，再清源。</text>
   </g>
 </svg>
-

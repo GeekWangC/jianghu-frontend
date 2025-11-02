@@ -8,8 +8,7 @@
   </defs>
   <rect class="bg" width="1080" height="1440"/>
   <g transform="translate(100,360)">
-    <text class="line">他叫沈衡，外号‘行列剑’，年近四十。</text>
-    <text class="line muted" y="80">手里只拎一只旧背包和一把小键盘。</text>
+    <text class="line">我叫沈衡，外号‘行列剑’，快四十。</text>
+    <text class="line muted" y="80">怕的不是丢饭碗，是手生。</text>
   </g>
 </svg>
-
