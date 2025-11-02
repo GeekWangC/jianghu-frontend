@@ -1,8 +1,12 @@
 $ErrorActionPreference = 'Stop'
 
+param(
+  [string]$Chapter = '01'
+)
+
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path | Split-Path -Parent
-$dir = Join-Path $root 'xhs/01/pages'
-$out = Join-Path $root 'xhs/01/png'
+$dir = Join-Path $root ("xhs/" + $Chapter + "/pages")
+$out = Join-Path $root ("xhs/" + $Chapter + "/png")
 New-Item -ItemType Directory -Force -Path $out | Out-Null
 
 $svgs = Get-ChildItem -LiteralPath $dir -Filter *.svg | Sort-Object Name
@@ -20,4 +24,3 @@ if ($ink) {
   Write-Host '2) Install Inkscape: https://inkscape.org'
   Write-Host '3) Or use resvg/cairosvg tools'
 }
-

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <style><![CDATA[
+      .bg { fill: #0e1116; }
+      .line { font: 500 38px 'Noto Serif SC','STSong','Songti SC','SimSun',serif; fill: #e6edf3; }
+      .muted { fill: #9fb1c6; }
+    ]]></style>
+  </defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,320)">
+    <text class="line">继续看第三回｜从主页点置顶合集</text>
+    <text class="line muted" y="80">收藏本条不迷路｜评论置顶有【阅读导航】</text>
+  </g>
+</svg>
+
