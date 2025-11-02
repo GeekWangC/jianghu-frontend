@@ -20,7 +20,7 @@ Get-ChildItem -LiteralPath $srcChapters -Filter *.md | ForEach-Object {
   Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $docsChapters $_.Name) -Force
 }
 
-# Build sidebar with titles extracted from first heading of each file
+# Build sidebar with titles extracted from first heading of each chapter
 function Get-Title($path) {
   $line = (Get-Content -LiteralPath $path -Encoding UTF8 -TotalCount 1)
   if ($line -match '^#\s*(.+)$') { return $Matches[1] }
@@ -28,9 +28,7 @@ function Get-Title($path) {
 }
 
 $sb = New-Object System.Collections.Generic.List[string]
-$sb.Add("- [简介](README.md)")
-$sb.Add("- [人物志](characters.md)")
-$sb.Add("- [世界观与武学系统](settings.md)")
+$sb.Add("- 目录")
 
 $chapterFiles = Get-ChildItem -LiteralPath $docsChapters -Filter *.md | Sort-Object Name
 foreach ($f in $chapterFiles) {

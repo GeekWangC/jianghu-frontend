@@ -1,6 +1,4 @@
-﻿- [绠€浠媇(README.md)
-- [浜虹墿蹇梋(characters.md)
-- [涓栫晫瑙備笌姝﹀绯荤粺](settings.md)
+﻿- 鐩綍
 - [第一回 前路如剑](chapters\01-前路如剑.md)
 - [第二回 云岚初会](chapters\02-云岚初会.md)
 - [第三回 钩影三破](chapters\03-钩影三破.md)
