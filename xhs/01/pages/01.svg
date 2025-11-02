@@ -1,26 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
-  <defs>
-    <style><![CDATA[
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1080"
+   height="1440"
+   viewBox="0 0 1080 1440"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="01.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.56597222"
+     inkscape:cx="539.77914"
+     inkscape:cy="720"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5" />
+  <defs
+     id="defs2">
+    <style
+       id="style1"><![CDATA[
       .bg { fill: #0e1116; }
       .title { font: 700 72px 'Noto Serif SC','STSong','Songti SC','SimSun',serif; fill: #e6edf3; }
       .subtitle { font: 500 42px 'Noto Serif SC','STSong','Songti SC','SimSun',serif; fill: #9fb1c6; }
       .tag { font: 500 28px system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', sans-serif; fill: #9fb1c6; }
       .accent { fill: #1f6feb; }
     ]]></style>
-    <linearGradient id="grain" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#102033"/>
-      <stop offset="100%" stop-color="#0e1116"/>
+    <linearGradient
+       id="grain"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#102033"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#0e1116"
+         id="stop2" />
     </linearGradient>
   </defs>
-  <rect class="bg" width="1080" height="1440"/>
-  <rect width="1080" height="1440" fill="url(#grain)" opacity="0.6"/>
-  <g transform="translate(100,240)">
-    <text class="title">江湖前端：风起四十</text>
-    <text class="subtitle" y="110">第一回 前路如剑</text>
+  <rect
+     class="bg"
+     width="1080"
+     height="1440"
+     id="rect2" />
+  <rect
+     width="1080"
+     height="1440"
+     fill="url(#grain)"
+     opacity="0.6"
+     id="rect3" />
+  <g
+     transform="translate(100,240)"
+     id="g4">
+    <text
+       class="title"
+       id="text3">江湖前端：风起四十</text>
+    <text
+       class="subtitle"
+       y="110"
+       id="text4">第一回 前路如剑</text>
   </g>
-  <g transform="translate(100,1260)">
-    <circle class="accent" cx="12" cy="-10" r="6"/>
-    <text class="tag" y="0">以金庸笔法写就的当代武侠长篇 · 每周三/六更新</text>
+  <g
+     transform="translate(100,1260)"
+     id="g5">
+    <circle
+       class="accent"
+       cx="12"
+       cy="-10"
+       r="6"
+       id="circle4" />
+    <text
+       class="tag"
+       y="0"
+       id="text5"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:28px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', 'Noto Sans SC', sans-serif"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="0"
+         y="0">以金庸笔法写就的当代武侠</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="0"
+         y="35" /></text>
   </g>
 </svg>
-
