@@ -1,0 +1,49 @@
+:root{
+  --accent: #1f6feb;
+  --bg: #0e1116;
+  --fg: #e6edf3;
+  --muted: #9fb1c6;
+}
+
+/* Layout & typography */
+.markdown-section{
+  max-width: 860px;
+  padding: 24px 28px 60px;
+  line-height: 1.85;
+  font-size: 17px;
+}
+body{ color: var(--fg); }
+.sidebar, body{ background: var(--bg); }
+a{ color: var(--accent); }
+
+/* Headings */
+.markdown-section h1{ font-size: 2.1em; margin-top: 0.8em; }
+.markdown-section h2{ font-size: 1.6em; margin-top: 1.4em; }
+.markdown-section h3{ font-size: 1.25em; margin-top: 1.2em; }
+.markdown-section h1, .markdown-section h2, .markdown-section h3{ color: var(--fg); }
+
+/* Code blocks */
+pre code{ background: #0b1220 !important; color: #d6e2ff; }
+code{ background: #0b1220; color: #c7d6ff; padding: 2px 4px; border-radius: 3px; }
+
+/* Sidebar */
+.sidebar .sidebar-nav{ padding: 12px 8px; }
+.sidebar .app-name{ padding: 20px 16px; }
+.sidebar .app-name-link{ color: var(--fg) !important; }
+.sidebar
+  .sidebar-nav
+  a{ color: var(--muted); }
+.sidebar
+  .sidebar-nav
+  .active{ color: var(--fg) !important; }
+
+/* Coverpage */
+section.cover{ background: radial-gradient(1200px 600px at 70% -10%, #1f6feb22, transparent), var(--bg); }
+.cover .cover-main{ color: var(--fg); }
+.cover .cover-main > p{ color: var(--muted); }
+.cover .cover-main .buttons a{ border-color: var(--accent); color: var(--accent) !important; }
+.cover .cover-main .buttons a:last-child{ background: var(--accent); color: #fff !important; }
+
+/* Images */
+.markdown-section img{ border-radius: 6px; }
+

@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>江湖前端：风起四十</title>
+    <link rel="icon" href="assets/cover.svg">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="app">加载中…</div>
@@ -13,8 +15,10 @@
       window.$docsify = {
         name: '江湖前端：风起四十',
         loadSidebar: true,
+        coverpage: true,
         subMaxLevel: 2,
         auto2top: true,
+        themeColor: '#1f6feb',
         alias: {
           '/.*/_sidebar.md': '/_sidebar.md'
         }
@@ -23,4 +27,3 @@
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   </body>
   </html>
-
