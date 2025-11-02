@@ -29,6 +29,9 @@ function Get-Title($path) {
 
 $sb = New-Object System.Collections.Generic.List[string]
 $sb.Add("- 目录")
+$sb.Add("- [人物志](characters.md)")
+$sb.Add("- [世界观与武学系统](settings.md)")
+$sb.Add("- 章节")
 
 $chapterFiles = Get-ChildItem -LiteralPath $docsChapters -Filter *.md | Sort-Object Name
 foreach ($f in $chapterFiles) {
