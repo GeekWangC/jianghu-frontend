@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <style><![CDATA[
+      .bg{fill:#0e1116}
+      .title{font:700 72px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#e6edf3}
+      .subtitle{font:500 42px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#9fb1c6}
+      .tag{font:600 30px system-ui,-apple-system,'Segoe UI','Noto Sans SC',sans-serif;fill:#ffffff}
+    ]]></style>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+  </defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <rect width="1080" height="1440" fill="url(#g)" opacity="0.22"/>
+  <g transform="translate(100,260)">
+    <text class="title">江湖前端：风起四十</text>
+    <text class="subtitle" y="110">连载合集 · 从第一回看起</text>
+  </g>
+  <g transform="translate(100,1100)">
+    <rect x="0" y="0" width="580" height="78" rx="14" fill="#1f6feb"/>
+    <text x="24" y="52" class="tag">每周三/六更新 · 收藏本合集不迷路</text>
+  </g>
+</svg>
+
