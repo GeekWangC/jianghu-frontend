@@ -16,6 +16,7 @@ function Get-FirstAvailable($urls, $outPath){
 
 $jsPath = Join-Path $vendor 'docsify.min.js'
 $cssPath = Join-Path $vendor 'docsify-theme-vue.css'
+$markedPath = Join-Path $vendor 'marked.min.js'
 
 $okJs = Get-FirstAvailable @(
   'https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js',
@@ -33,3 +34,8 @@ if(-not $okJs -or -not $okCss){
   Write-Host "Vendor assets saved to: $vendor"
 }
 
+$okMarked = Get-FirstAvailable @(
+  'https://cdn.jsdelivr.net/npm/marked/marked.min.js',
+  'https://unpkg.com/marked/marked.min.js'
+) $markedPath
+if($okMarked){ Write-Host 'Marked saved.' } else { Write-Warning 'Failed to fetch marked.min.js' }

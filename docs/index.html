@@ -14,14 +14,13 @@
     <script>
       window.$docsify = {
         name: '江湖前端：风起四十',
-        loadSidebar: true,
+        homepage: 'README.md',
+        loadSidebar: '_sidebar.md',
         coverpage: true,
         subMaxLevel: 2,
         auto2top: true,
         themeColor: '#1f6feb',
-        alias: {
-          '/.*/_sidebar.md': '/_sidebar.md'
-        }
+        basePath: './'
       }
 
       // Fallback hint when opened via file:// or CDN blocked
