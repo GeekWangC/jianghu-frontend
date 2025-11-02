@@ -6,7 +6,8 @@ if(-not (Test-Path $book)){ throw 'book.md not found. Run scripts/build-book.ps1
 $out = Join-Path $root 'docs/book.html'
 
 $md = Get-Content -LiteralPath $book -Encoding UTF8 -Raw
-$mdJs = (ConvertTo-Json -InputObject $md -Compress)
+# Use Base64 to avoid any encoding or escaping issues in inline JS
+$mdB64 = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($md))
 
 $html = @"
 <!DOCTYPE html>
@@ -14,6 +15,7 @@ $html = @"
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>江湖前端：风起四十（离线版）</title>
   <link rel="icon" href="assets/cover.svg">
   <link rel="stylesheet" href="styles.css" />
@@ -33,7 +35,8 @@ $html = @"
   </main>
   <script src="vendor/marked.min.js"></script>
   <script>
-    const md = $mdJs;
+    // Decode base64-embedded UTF-8 markdown to avoid mojibake
+    const md = new TextDecoder('utf-8').decode(Uint8Array.from(atob('$mdB64'), c => c.charCodeAt(0)));
     document.getElementById('content').innerHTML = marked.parse(md);
   </script>
 </body>
@@ -42,4 +45,3 @@ $html = @"
 
 Set-Content -LiteralPath $out -Encoding UTF8 -Value $html
 Write-Host "Offline HTML created: $out"
-
