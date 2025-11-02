@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <style><![CDATA[
+      .bg { fill: #0e1116; }
+      .h1 { font: 700 56px 'Noto Serif SC','STSong','Songti SC','SimSun',serif; fill: #e6edf3; }
+    ]]></style>
+  </defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,380)">
+    <text class="h1">今晨，城里很多路，忽然都不通了。</text>
+  </g>
+</svg>
+
