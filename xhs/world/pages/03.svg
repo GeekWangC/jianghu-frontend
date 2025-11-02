@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs><style><![CDATA[
+    .bg{fill:#0e1116}.h{font:700 52px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#e6edf3}
+    .li{font:500 38px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#9fb1c6}
+  ]]></style></defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,260)">
+    <text class="h">架构心法</text>
+    <text class="li" y="90">- 组件与依赖如经络分支</text>
+    <text class="li" y="160">- 状态管理为总诀，失衡则走火</text>
+  </g>
+</svg>
+

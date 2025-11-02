@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs><style><![CDATA[
+    .bg{fill:#0e1116}.h{font:700 56px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#e6edf3}
+    .li{font:500 36px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#9fb1c6}
+  ]]></style></defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,220)">
+    <text class="h">对手与边角</text>
+    <text class="li" y="100">- 陆霁｜黑盒门青衣：门里门外两难</text>
+    <text class="li" y="160">- 顾巧｜无声鼓阵：写与回写，本一事</text>
+    <text class="li" y="220">- 门主｜以术驭人，终服‘人驭术’</text>
+  </g>
+</svg>
+

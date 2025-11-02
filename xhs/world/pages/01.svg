@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs><style><![CDATA[
+    .bg{fill:#0e1116}.title{font:700 64px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#e6edf3}
+    .subtitle{font:500 40px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#9fb1c6}
+  ]]></style></defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,260)">
+    <text class="title">设定卡 · 世界观与武学系统</text>
+    <text class="subtitle" y="110">江湖前端：风起四十</text>
+  </g>
+</svg>
+

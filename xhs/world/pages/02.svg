@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs><style><![CDATA[
+    .bg{fill:#0e1116}.h{font:700 52px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#e6edf3}
+    .li{font:500 38px 'Noto Serif SC','STSong','Songti SC','SimSun',serif;fill:#9fb1c6}
+  ]]></style></defs>
+  <rect class="bg" width="1080" height="1440"/>
+  <g transform="translate(100,260)">
+    <text class="h">性能内功</text>
+    <text class="li" y="90">- 冷启动如入定，首屏为初式</text>
+    <text class="li" y="160">- 压缩/懒加载：调息/截脉</text>
+  </g>
+</svg>
+
