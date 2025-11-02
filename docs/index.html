@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>江湖前端：风起四十</title>
     <link rel="icon" href="assets/cover.svg">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,7 +23,20 @@
           '/.*/_sidebar.md': '/_sidebar.md'
         }
       }
+
+      // Fallback hint when opened via file:// or CDN blocked
+      window.addEventListener('DOMContentLoaded', function(){
+        setTimeout(function(){
+          var ok = !!window.Docsify || document.querySelector('.sidebar');
+          if(!ok){
+            var el = document.getElementById('app');
+            el.style.whiteSpace = 'pre-wrap';
+            el.style.padding = '16px';
+            el.innerText = '本地直接打开可能因 file 协议或网络阻断导致“加载中”。\n\n解决方式：\n1) 启动本地静态服务器（推荐）：\n   - Python:  python -m http.server -d . 3000\n   - Node:    npx serve .\n   然后访问:  http://localhost:3000\n\n2) 确保可访问 CDN: https://cdn.jsdelivr.net 并刷新页面。';
+          }
+        }, 1800);
+      });
     </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   </body>
   </html>
